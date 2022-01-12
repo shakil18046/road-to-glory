@@ -1,0 +1,480 @@
+html {
+  color: #222;
+  font-size: 10px;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 4.5rem;
+}
+h2 {
+  font-size: 3.5rem;
+}
+h4 {
+  font-size: 1.8rem;
+}
+p {
+  font-size: 1.8rem;
+}
+li {
+  list-style-type: none;
+}
+section {
+  overflow: hidden;
+}
+ul {
+  padding: 0;
+}
+.dfauto {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+/* ----nav-area-start------ */
+.main-logo {
+  width: 18%;
+  position: absolute;
+  top: -136%;
+  left: -5%;
+}
+
+.nav-link {
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-family: "Roboto Slab", serif;
+}
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: end;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff !important;
+}
+.bg-light {
+  background-color: #f8f9fa00 !important;
+}
+.container-bg {
+  background-color: #a52b14;
+  padding: 2rem 0;
+  border-radius: 0.3rem;
+}
+.nav-area {
+  padding-top: 5rem;
+}
+.nav-item:not(:last-child) {
+  margin-right: 2rem;
+}
+.nav-link {
+  padding: 0.8rem 1.5rem !important;
+  background-color: #f0940a;
+  border-radius: 0.3rem;
+}
+
+/* ----nav-area-end------ */
+
+/* ------hero-area-start------ */
+.hero-area {
+  background: url(../img/hero.png) no-repeat;
+  background-size: cover;
+  padding: 0rem 0rem 10rem 0rem;
+  background-position: center center;
+  height: auto;
+}
+.image-wrapper img {
+  width: 50%;
+}
+.image-wrapper {
+  text-align: center;
+}
+.hero-btn-one {
+  padding: 1.4rem 3rem;
+  background-color: #f5430a;
+  font-size: 1.6rem;
+  font-family: "Roboto Slab", serif;
+  color: #ffffff;
+  margin: 0 1rem;
+  border-radius: 0.3rem;
+  box-shadow: 0px 2px 20px rgba(255, 71, 13, 0.7);
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+}
+.hero-btn-two {
+  background: #f0940a;
+  box-shadow: 0px 2px 25px rgba(240, 148, 10, 0.5);
+}
+.hero-btn-one:hover {
+  color: #ffffff;
+  transform: translateY(-0.6rem);
+}
+.hero-btn-one:active {
+  transform: translateY(0rem);
+}
+/* ------hero-area-end------ */
+
+/* ------description-area-start------ */
+.description {
+  padding: 10rem 0;
+  background: #201a1a;
+}
+.description-heading-content h1 {
+  font-family: "Russo One", sans-serif;
+  color: #ffffff;
+}
+.description-sub-heading {
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 0.2rem;
+}
+.description-heading {
+  color: #f0940a;
+  font-family: "Russo One", sans-serif;
+  padding: 0.8rem 0;
+}
+.description-paragraph {
+  line-height: 2.6rem;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  width: 75%;
+}
+.list-item {
+  font-size: 1.6rem;
+  color: #ffffff;
+  position: relative;
+  padding-left: 3rem;
+}
+.list-item:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.list-item::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: url(../img/right.svg) no-repeat;
+  top: 15%;
+  left: 0%;
+}
+.list-wrapper {
+  padding-top: 1rem;
+}
+.description-btn-wrapper {
+  padding-top: 5rem;
+}
+.description-btn {
+  padding: 1.2rem 3rem;
+  background: #f5430a;
+  border: 0.2rem solid #ff6938;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 20px rgba(255, 71, 13, 0.7);
+  border-radius: 0.3rem;
+  font-size: 1.6rem;
+  font-family: "Roboto Slab", serif;
+  color: #ffffff;
+  margin-right: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+.description-btn:hover {
+  color: #ffffff;
+  background: #f0940a;
+  border: 0.2rem solid #f0940a;
+  box-shadow: 0px 2px 20px rgba(240, 148, 10, 0.7);
+}
+.description-image-wrapper {
+  position: relative;
+}
+.player {
+  width: 8%;
+}
+.d-1 {
+  width: 20%;
+  position: absolute;
+  right: -3%;
+  top: 8%;
+}
+.d-2 {
+  width: 25%;
+  position: absolute;
+  bottom: -3%;
+  left: 10%;
+}
+.d-3 {
+  position: relative;
+  width: 100%;
+}
+.description-heading-content {
+  padding-bottom: 10rem;
+}
+.content-border img {
+  width: 12%;
+}
+.content-border {
+  padding-bottom: 2rem;
+}
+/* ------description-area-end------ */
+/* ----game-mode---- */
+.game-mode {
+  background: #141212;
+}
+.d-one {
+  width: 15%;
+  position: absolute;
+  right: 23%;
+  top: 5%;
+}
+.d-two {
+  width: 15%;
+  position: absolute;
+  bottom: -2%;
+  left: 6%;
+}
+.gamemode {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.d-three {
+  position: relative;
+  width: 75%;
+}
+.game-mode-heading {
+  width: 95%;
+  line-height: 4.2rem;
+}
+/* ------footer-top---- */
+footer {
+  background: #111011;
+}
+.footer-logo {
+  width: 50%;
+}
+.footer-para {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  width: 80%;
+  font-family: "Inter", sans-serif;
+}
+.footer-heading {
+  color: #ffffff;
+  font-family: "Russo One", sans-serif;
+  padding-bottom: 1.5rem;
+}
+.foter-list {
+  font-size: 1.4rem;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  position: relative;
+}
+.footer-list-one,
+.foter-list:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.footer-list-one::after {
+  position: absolute;
+  content: "";
+  top: 0%;
+  left: -7%;
+  width: 100%;
+  height: 100%;
+  background: url(../img/locatio.svg) no-repeat;
+}
+.footer-list-two::after {
+  position: absolute;
+  content: "";
+  top: 12%;
+  left: -7%;
+  width: 100%;
+  height: 100%;
+  background: url(../img/phone.svg) no-repeat;
+}
+.footer-list-three::after {
+  position: absolute;
+  content: "";
+  top: 20%;
+  left: -7%;
+  width: 100%;
+  height: 100%;
+  background: url(../img/msg.svg) no-repeat;
+}
+.column-three-list a {
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+.column-three-list:not(:last-child) {
+  margin-bottom: 1rem;
+}
+.top-footer {
+  padding: 6rem 0 2rem 0;
+}
+.footer-list-wrapper {
+  padding-left: 2rem;
+}
+.bottom-footer-content p {
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 2rem;
+}
+.br {
+  border-top: 0.1rem solid #39505f59;
+}
+.bottom-footer {
+  padding: 1rem 0;
+}
+
+/* roadmap */
+/*----------Roadmap style start ----------*/
+.roadmap,
+.team {
+  background-color: #181519;
+  padding: 120px 25px 160px 25px;
+}
+.first-item h4 {
+  font-size: 18px;
+}
+.first-item p {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 15px 25px;
+  border-radius: 15px;
+  width: 55%;
+  line-height: 28px;
+  transition: all 0.3s ease-in-out;
+}
+.roadmap-content p {
+  transition: all 0.3s ease-in-out;
+}
+.roadmap-content p:hover {
+  background-color: #f0940a;
+  border: 1px solid #f0940a;
+}
+.first-item p:hover {
+  background-color: #f0940a;
+  border: 1px solid #f0940a;
+}
+.first-item h4 {
+  color: #f0940a;
+  font-weight: 600;
+}
+.second-item p {
+  width: 100% !important;
+}
+.fifth-item p {
+  width: 80% !important;
+}
+.second-flex {
+  display: flex;
+  align-items: flex-end;
+}
+.team-content-heading {
+  color: #ffffff;
+  font-family: "Russo One", sans-serif;
+  text-align: center;
+  padding-bottom: 12rem;
+}
+/*----------Roadmap style end ----------*/
+/*----------team style start ----------*/
+
+.first-row {
+  margin-bottom: 80px;
+}
+.team-item {
+  position: relative;
+}
+.item-content {
+  position: absolute;
+  left: 50%;
+  top: 85%;
+  width: 70%;
+  height: 25%;
+  transform: translate(-50%, 0%);
+  background-color: #f0940a;
+  clip-path: polygon(0 5%, 95% 0, 82% 100%, 9% 88%);
+  text-align: center;
+  display: inline-block;
+  padding: 15px 0px;
+  color: #ffffff;
+  z-index: 999;
+}
+.item-content h4,
+.item-content p {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+.item-content h4 {
+  font-size: 18px;
+}
+.item-content p {
+  font-size: 14px;
+}
+@media (max-width: 767px) {
+  .team-item-three {
+    margin-top: 60px;
+  }
+  .display-none {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .team-item {
+    margin-bottom: 70px;
+  }
+  .team-item-three {
+    margin-top: 0px;
+  }
+}
+
+/*----------team style end ----------*/
+
+/* new-mobile-roadmap */
+
+.roadmap-mobile {
+  display: none;
+  padding: 40px 25px;
+  background-color: #181519;
+}
+.row-flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.roadmap-content {
+  color: #fff;
+}
+.roadmap-content p {
+  color: #ffffff;
+  font-size: 14px;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  padding: 10px 15px;
+}
+.roadmap-content h4 {
+  color: #f0940a;
+  font-size: 18px;
+}
+.col-flex {
+  display: flex;
+  align-items: flex-end;
+}
+
+@media (max-width: 414px) {
+  .roadmap-image img {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .roadmap-image img {
+    width: 60%;
+    float: right;
+  }
+}
